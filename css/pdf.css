@@ -1,0 +1,95 @@
+/* Police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #3c87ff;
+}
+
+.submit{
+margin-top: 20px;
+color: white;
+border: 1px solid white;
+border-radius: 6px;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+.piece{
+background-color: white;
+height:auto;
+width: 95%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+}
+.logo p{
+margin-left: 10px;
+font-weight: bold;
+}
+h1{
+text-align: center;
+}
+.elements{
+    margin-left: 25px;
+}
+.elements p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 0;
+    font-size:  20px;
+    font-weight: 300;
+} 
+.certification{
+    position: absolute;
+    right: 20px;
+    text-align: center;
+}
+.certification img{
+    width: 35px;
+border-radius: 50%;
+}
+.generateur button{
+padding: 10px 30px;
+}
+.certification p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.voyag{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     
+}
+.vy1 {
+    border-top: 1px solid black;
+    width: 50%;
+    
+}
+.vy1 p{
+    font-size: 16px;
+
+}

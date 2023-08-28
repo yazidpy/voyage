@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.active{
+    background-color: var(--secondary-color);
+}
+
+.clientss{
+    color: white;
+    height: 497px;
+    padding: 50px;
+}
+
+.offress{
+    display: none;
+    color: white;
+    height: 497px;
+    padding: 50px;
+}
+
+.volss{
+    display: none;
+    color: white;
+    height: 497px;
+    padding: 50px;
+}
+
+.messagess{
+    display: none;
+    color: white;
+    height: 497px;
+    padding: 50px;
+}
+
+table{
+    color: white;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    height: 50px;
+}
+
+.navigation-buttons a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.navigation-buttons a:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation .logo {
+    color: white;
+}
+
+.navigation .connexion-res {
+    display: none;
+}
+
+.navigation span {
+    color: var(--secondary-color);
+}
+
+.navigation .flex {
+    justify-content: space-between;
+}
+
+.btn-cnx {
+    color: var(--secondary-color);
+    font-size: 14px;
+    border: 2px solid #29D9D5;
+    padding: 5px 20px;
+    transition: .2s;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-cnx:hover {
+    background-color: aqua;
+    color: #fff;
+    font-weight: 500;
+}
+
+#error1,#error2,.message {
+    color: red;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+#div_modification, #div_modification_vol {
+  position: fixed;
+  display: none;
+  height: 550px;
+  width: 700px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 20px;
+  top: 40px;
+  left: 25%;
+}
+
+#div_modification input, #div_modification_vol input {
+  display: block;
+  padding: 5px;
+  width: 600px;
+  margin: 10px 0 0 50px;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+#div_modification input:last-of-type, #div_modification_vol input:last-of-type {
+  margin-top: 30px;
+}
+
+#div_modification h3, #div_modification_vol h3 {
+  margin: 30px 0 30px 50px;
+  font-size: 1.7rem;
+}
+
+#confirm_ajout {
+    display: none;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+}

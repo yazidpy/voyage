@@ -1,0 +1,170 @@
+.sign {
+  height: 100vh;
+}
+
+.picture img {
+  margin: 1px auto;
+  height: 40vh;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.inscription {
+  height: 1100px;
+}
+
+.inscription h1 {
+  text-transform: uppercase;
+}
+
+.inscription .heading {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.inscription .heading span {
+  font-size: 3rem;
+  background: var(--primary-color);
+  color: #29D9D5;
+  border-radius: .5rem;
+  padding: .2rem 1rem;
+  box-shadow: 2px 2px 5px 1px var(--primary-color);
+}
+
+.inscription .insc-form {
+  padding: 1rem 2rem;
+}
+
+.inscription .insc-form .grid{
+  grid-gap: 20px;
+}
+
+.inscription .insc-form .part2{
+  margin-bottom: 4px;
+}
+
+.inscription .insc-form .inputBox {
+  margin-top: 2em;
+}
+
+#sexe{
+  margin-top: 20px;
+  padding: 15px 30px;
+  width: 100%;
+  border: 1px solid rgb(0, 140, 255);
+  border-radius: 10px;
+}
+
+.inscription .insc-form .grid .inputBox input {
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 1.3rem;
+  color: var(--light-black);
+  text-transform: none;
+  margin-top: 1rem;
+  border: 1px solid rgb(0, 140, 255);
+  border-radius: 10px;
+}
+
+.inscription .insc-form .grid .inputBox input:focus {
+  background: var(--primary-color);
+  color: white;
+}
+
+.inscription .insc-form .grid .inputBox input:focus::placeholder {
+  color: white;
+}
+
+.inscription .insc-form .grid .inputBox span {
+  font-size: 1.2rem;
+  color: var(--dark-color);
+  font-weight: bolder;
+}
+
+.inscription .insc-form .btn {
+  margin-top: 1rem;
+  font-size: 1.2em;
+}
+
+.sign form {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  width: 100%;
+  display: grid;
+  height: 100vh;
+}
+
+.sign form .box {
+  width: 60%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 0.5rem auto;
+  text-transform: none;
+  border-radius: 4px;
+  display: grid;
+}
+
+.sign form p {
+  color: var(--light-color);
+  font-weight: 900;
+}
+
+/* media queries */
+@media (max-width:950px) {
+  .inscription .heading {
+    padding: 2rem 0;
+  }
+
+  .inscription .heading span {
+    font-size: 2.1rem;
+    padding: .2rem 1rem;
+  }
+}
+
+@media (max-width:900px) {
+  .inscription .heading {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .inscription .heading span {
+    font-size: 3rem;
+    background: none;
+    color: var(--dark-color);
+    text-shadow: 5px 5px 5px var(--dark-color);
+    border: none;
+    padding: 0;
+    box-shadow: none;
+  }
+}
+
+@media (max-width:720px) {
+  .inscription .insc-form .grid .inputBox input {
+    padding: 1.2rem 1.4rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .inscription .insc-form .grid .inputBox span {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width:633px) {
+  .inscription {
+    height: 1600px;
+  }
+
+  .inscription .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inscription .insc-form .grid .inputBox input {
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    margin-top: .2rem;
+  }
+}

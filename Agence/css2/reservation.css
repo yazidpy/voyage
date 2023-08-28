@@ -1,0 +1,70 @@
+:root {
+    --primary-color: rgba(0, 0, 0, 0.815);
+    --secondary-color: #05d3e2;
+    --dark-color: #00182e;
+    --light-color: #f4f4f4;
+  }
+.picture img{
+ margin:1px auto;
+ height: 40vh;
+ width: 100%;
+ padding: 0 15px; 
+}
+.offre img{
+ height: 50vh;
+ width: 100%;
+ padding: 0 15px;
+}
+.offre .info{
+    width: 100%;
+    background-color:var(--dark-color);
+    text-align: center;
+}
+.offre .info h3{
+text-transform: uppercase;
+font-weight: 500%;
+color: var(--light-color);
+}
+
+.booking .heading{
+    margin-top: 2.5em;
+}
+
+.booking .book-form{
+    padding:1rem 2rem;
+}
+  
+.booking .book-form .inputBox{
+    margin-top: 2em;
+}
+
+ .booking .book-form .grid .inputBox input{
+    width: 100%;
+    padding:1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color:var(--light-black);
+    text-transform: none;
+    margin-top: 1rem;
+    border:1px solid rgb(0, 140, 255);
+    border-radius: 10px;
+ }
+ 
+ .booking .book-form .grid .inputBox input:focus{
+    background:var(--primary-color);
+    color: white;
+ }
+ 
+ .booking .book-form .grid .inputBox input:focus::placeholder{
+    color:white;
+ }
+ 
+ .booking .book-form .grid .inputBox span{
+    font-size: 1.5rem;
+    color:var(--dark-color);
+ }
+ 
+ .booking .book-form .btn{
+    margin-top: 2rem;
+    font-size: 1.5em;
+ }
+ 
